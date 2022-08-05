@@ -1,0 +1,281 @@
+*{
+  box-sizing:border-box;
+}
+.cover{
+   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center;
+  background-size:cover;
+  height:100vh;
+  width:100%;
+  display:table;
+  max-height:100%;
+  text-align:center;
+}
+.hero{
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.wrapper{
+  
+  color:#ccc;
+  background-color:hsla(100,0%,0%,.6);
+  margin:0 auto;
+  padding:.625rem;
+  
+}
+  @media (min-width:768px){
+    .wrapper{
+       width:50%;
+       border-radius:4px;
+    }
+  }
+  
+  
+
+.tagline{
+  font-size:2rem;
+  text-transform:uppercase;
+  letter-spacing:.25rem;
+}
+.tagline::after{
+  display:block;
+  content:"";
+  background-color:#fff;
+  height:1px;
+  width:12rem;
+  margin:0.5rem auto;
+  
+}
+.wrapper h1{
+  font-size:6rem;
+  margin-bottom:2rem;
+  
+}
+.date{
+  font-size:1.5rem;
+  
+}
+
+.date::before{
+  display:inline-block;
+  content:"";
+  height:1px;
+  background-color:#fff;
+  width:1.5rem;
+  vertical-align:middle;
+  margin:0 0.5rem;
+}
+.date::after{
+  display:inline-block;
+  content:"";
+  height:1px;
+  background-color:#fff;
+  width:1.5rem;
+  vertical-align:middle;
+  margin:0 0.5rem;
+}
+body{
+  background:url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
+.body{
+  
+  height:80vh;
+  width:98vw;
+}
+
+.locations{
+  content-align:center;
+  display:table;
+  
+}
+.body h1{
+  text-align:center;
+  font-size:3rem;
+}
+.container{
+  text-align:center;
+}
+.ceremony, .photos, .party{
+  padding-top:2rem;
+  padding-bottom:3rem;
+}
+img{
+  height:8rem;
+}
+.container p{
+  padding-bottom:2rem;
+  font-size:2rem;
+  font-weight:bold;
+  
+}
+.ceremony-desc, .photo-desc, .party-desc{
+  font-size:1.5rem;
+}
+.ceremony-desc:after{
+  content:"";
+  width:25vw;
+  height:0.15rem;
+  display:block;
+  margin:1.5rem auto;
+  background-color:#444349;
+  
+}
+.photo-desc::after{
+  content:"";
+  width:25vw;
+  height:0.15rem;
+  display:block;
+  margin:1.5rem auto;
+  background-color:#444349;
+  
+}
+
+.party-desc::after{
+  content:"";
+  width:25vw;
+  height:0.15rem;
+  display:block;
+  margin:1.5rem auto;
+  background-color:#444349;
+  
+}
+@media(min-width:768px){
+  .ceremony{
+    display:inline-block;
+    width:30%;
+    padding:1.5rem;
+    margin:0.5rem;
+  }
+  .ceremony-desc::after{
+    display:none;
+  }
+  .party{
+    display:inline-block;
+    width:30%;
+    padding:1.5rem;
+    margin:0.5rem;
+  }
+  .party-desc::after{
+    display:none;
+  }
+  .photos{
+     display:inline-block;
+    width:30%;
+    padding:1.5rem;
+    margin:0.5rem;
+  }
+  .photo-desc::after{
+    display:none;
+  }
+  
+}
+.program{
+  background-color:hsla(100,0%,0%,.6);
+  padding-bottom:3rem;
+  color:#d2ba87;
+}
+.program h1{
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+.program section{
+  
+  font-size:1.5rem;
+}
+.program p{
+  line-height:2rem;
+}
+@media(min-width:768px){
+  .program section{
+    width:30vw;
+  margin:0 auto;
+  }
+}
+.gifts{
+  text-align:center;
+  font-size:1.5rem;
+  padding-bottom:2rem
+}
+
+.gifts h1{
+  padding:2rem;
+}
+.gifts p{
+  line-height:2rem;
+  padding-bottom:2rem;
+}
+
+.gifts img{
+  margin:1rem;
+}
+.qna{
+  background-color:hsla(100,0%,0%,.6);
+  
+}
+
+.question-group p{
+  font-size:1.5rem;
+  text-align:left;
+  padding:1rem;
+  color:#d2ba87;
+}
+.qna h1{
+  font-size:2rem;
+  
+}
+.question{
+  padding:2rem;
+  font-weight:bold;
+}
+.question-group::after{
+  content:"";
+  display:block;
+  height:.18vh;
+  width:50vw;
+  margin:1.5rem auto;
+  background-color:#d2ba87;
+}
+@media(min-width:768px){
+  .question-group{
+    display:inline-block;
+    width:30%;
+    padding-top:2rem;
+    vertical-align:top;
+  }
+  .question-group::after{
+    display:none;
+  }
+  
+}
+a{
+  text-decoration:none;
+  color:#bd806e;
+}
+.contact{
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+.contact h1{
+  font-size:3rem;
+}
+.contact p{
+  font-size:1.5rem;
+  padding: 1rem; 1rem;
+}
+@media(min-width:768px){
+  .contact{
+    text-align:center;
+  }
+}
+.footer{
+  background-color:hsla(100,0%,0%,.6);
+  height:10vh;
+  width:100vw;
+  display:table;
+  
+}
+.footer p{
+  display:table-cell;
+  vertical-align:middle;
+ text-align:center;
+}
